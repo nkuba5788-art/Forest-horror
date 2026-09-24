@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Forest Survival 3D</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loading">
+        <h1>FOREST SURVIVAL</h1>
+        <p>Znajdź schronienie przed zmrokiem.</p>
+        <button id="start">GRAJ</button>
+    </div>
+
+    <div id="hud">
+        <div id="objective">🌲 Znajdź schronienie</div>
+        <div id="crosshair">+</div>
+    </div>
+
+    <div id="mobileControls">
+
+        <div id="joystick">
+            <div id="joystickStick"></div>
+        </div>
+
+        <div id="lookHint">
+            Przesuwaj palcem, aby rozglądać się
+        </div>
+
+        <button id="jumpButton">↑</button>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.min.js"></script>
+    <script src="game.js"></script>
+
+</body>
+</html>
