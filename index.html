@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Forest Horror 3D</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="loading">
+        <h1>🌲 FOREST HORROR</h1>
+        <button id="start">WEJDŹ DO LASU</button>
+        <p id="controls"></p>
+    </div>
+
+    <div id="hud">
+        <div id="device"></div>
+        <div id="battery">🔦 100%</div>
+        <div id="crosshair">+</div>
+        <div id="message">
+            Znajdź schronienie...
+        </div>
+    </div>
+
+    <!-- Sterowanie telefonem -->
+    <div id="mobileControls">
+
+        <div id="joystick">
+            <div id="joystickKnob"></div>
+        </div>
+
+        <div id="lookArea"></div>
+
+        <button id="jumpButton">↑</button>
+        <button id="flashButton">🔦</button>
+
+    </div>
+
+    <!-- Three.js -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.min.js"></script>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
