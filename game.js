@@ -1,3 +1,5 @@
+alert("GAME.JS DZIAŁA");
+
 let running = false;
 
 const startButton = document.getElementById("start");
